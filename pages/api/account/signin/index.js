@@ -39,7 +39,7 @@ const handler = (req, res) => {
                 return res.json({ error });
               }
               res.cookie("token", token, {
-                domain: ".urrevs.com",
+                domain: ".appriciation.com",
                 httpOnly: true,
                 maxgAge: 7 * 24 * 60 * 60 * 1000
               });
