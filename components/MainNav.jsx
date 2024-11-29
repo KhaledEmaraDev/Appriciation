@@ -462,7 +462,7 @@ function DrawerItems() {
         text: "المقالات",
         action: () => {
           window.location.href =
-            "https://forum.urrevs.com/category/3/%D9%85%D9%82%D8%A7%D9%84%D8%A7%D8%AA";
+            "https://forum.appriciation.com/category/3/%D9%85%D9%82%D8%A7%D9%84%D8%A7%D8%AA";
         },
         selected: false
       },
@@ -470,7 +470,7 @@ function DrawerItems() {
         icon: <ForumIcon />,
         text: "المنتديات",
         action: () => {
-          window.location.href = "https://forum.urrevs.com/";
+          window.location.href = "https://forum.appriciation.com/";
         },
         selected: false
       },
@@ -515,7 +515,7 @@ function BeforeUnloadEventListener() {
   useEffect(() => {
     const reviewTimer = setTimeout(() => {
       dispatch(
-        showSnackbar("info", "راجع هاتفك الاَن", "حسناً", () => {
+        showSnackbar("info", "راجع تطبيقك الاَن", "حسناً", () => {
           dispatch(setDialog("review"));
         })
       );
@@ -648,31 +648,13 @@ export default function MainNav(props) {
   function Copyright() {
     return (
       <React.Fragment>
-        <Typography
-          variant="body2"
-          color="textSecondary"
-          align="center"
-          gutterBottom
-        >
-          {"مدعوم من قبل "}
-          <MuiLink color="inherit" href="http://ihub.asu.edu.eg/">
-            <img
-              className={classes.sponsorIcon}
-              src="/images/iHub.png"
-              alt="iHub logo"
-            ></img>
-          </MuiLink>
-        </Typography>
         <Typography variant="body2" color="textSecondary" align="center">
           {"حقوق النشر محفوظة © "}
           <Link color="inherit" href="/">
-            URrevs
+            Appriciation
           </Link>{" "}
           {new Date().getFullYear()}
           {"."}
-          <MuiLink color="inherit" href="https://www.facebook.com/URrevs/">
-            <FacebookBox className={classes.facebookIcon} />
-          </MuiLink>
         </Typography>
       </React.Fragment>
     );
@@ -713,7 +695,7 @@ export default function MainNav(props) {
               </Link>
               <SearchBar
                 id="main-product-search"
-                placeholder="ابحث عن منتج"
+                placeholder="ابحث عن تطبيق"
                 onFocus={handleSearchFocus(true)}
                 onBlur={handleSearchFocus(false)}
                 handleSuggestionSelected={handleProductSelected}
