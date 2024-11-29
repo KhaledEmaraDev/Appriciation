@@ -1,9 +1,9 @@
 {
-  "name": "urrevs",
+  "name": "appriciation",
   "version": "0.1.0",
-  "description": "A Cutomer Review Platform",
-  "homepage": "https://urrevs.com",
-  "repository": "github:KhaledEmaraDev/URrevs",
+  "description": "An App Discovery Platform",
+  "homepage": "https://github.com/KhaledEmaraDev/Appriciation",
+  "repository": "github:KhaledEmaraDev/Appriciation",
   "author": "Khaled Emara",
   "license": "MPL-2.0",
   "private": true,

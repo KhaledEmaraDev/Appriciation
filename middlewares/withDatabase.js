@@ -3,7 +3,7 @@ import { MongoClient } from "mongodb";
 const user = encodeURIComponent(process.env.DB_USER);
 const password = encodeURIComponent(process.env.DB_PASSWORD);
 const authMechanism = "SCRAM-SHA-1";
-const dbName = "urrevs";
+const dbName = "appriciation";
 
 const url = `mongodb://${user}:${password}@${process.env.DB_HOST}/?authMechanism=${authMechanism}&authSource=${dbName}`;
 
