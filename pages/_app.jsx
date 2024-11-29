@@ -158,18 +158,18 @@ class MyApp extends App {
     return (
       <React.Fragment>
         <Head>
-          <title>مراجعات المستخدمين - URrevs</title>
+          <title>استكشاف التطبيقات - Appriciation</title>
           <meta
             name="description"
-            content="موقع مخصص لعرض امكانيات و اسعار و أراء المستخدمين في الموبايلات من حيث المميزات و العيوب و تقييم لإمكانيات الهاتف المختلفة"
+            content="موقع مخصص لاسكتشاف التطبيقات الجديدة"
           ></meta>
-          <meta property="og:title" content="مراجعات المستخدمين - URrevs" />
+          <meta property="og:title" content="استكشاف التطبيقات - Appriciation" />
           <meta
             property="og:description"
-            content="موقع مخصص لعرض امكانيات و اسعار و أراء المستخدمين في الموبايلات من حيث المميزات و العيوب و تقييم لإمكانيات الهاتف المختلفة"
+            content="موقع مخصص لاسكتشاف التطبيقات الجديدة"
           />
           <meta property="og:type" content="website" />
-          <meta property="og:url" content="https://urrevs.com" />
+          <meta property="og:url" content="https://appriciation.com" />
           <meta property="og:image" content="/images/favicon.ico" />
           <meta property="fb:app_id" content="429675907831370" />
         </Head>

@@ -165,7 +165,7 @@ const Review = forwardRef(function Review(props, ref) {
             variant="h6"
             color="textPrimary"
           >
-            مميزات هاتف{" "}
+            مميزات التطبيق{" "}
             {brand ? (
               `${brand} ${product}`
             ) : (
@@ -194,7 +194,7 @@ const Review = forwardRef(function Review(props, ref) {
             variant="h6"
             color="textPrimary"
           >
-            عيوب هاتف{" "}
+            عيوب التطبيق{" "}
             {brand ? (
               `${brand} ${product}`
             ) : (
