@@ -97,7 +97,7 @@ export default function Carousel(props) {
                 <img
                   loading="auto"
                   className={classes.img}
-                  src={`https://d3tygoy974vfbk.cloudfront.net/images/phones/${encodeURIComponent(
+                  src={`https://d3tygoy974vfbk.cloudfront.net/images/apps/${encodeURIComponent(
                     `${step.brand} ${step.product}`
                   )}.jpg`}
                   alt={`${step.brand} ${step.product}`}

@@ -11,7 +11,7 @@ const handler = (req, res) => {
     case "POST": {
       req.session.decodedToken = null;
       res.clearCookie("token", {
-        domain: ".urrevs.com",
+        domain: ".appriciation.com",
         httpOnly: true
       });
       res.json({ status: true });

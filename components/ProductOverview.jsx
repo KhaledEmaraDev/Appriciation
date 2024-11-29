@@ -70,7 +70,7 @@ export default function ProductOverview(props) {
             <Head>
               <meta
                 property="og:image"
-                content={`https://d3tygoy974vfbk.cloudfront.net/images/phones/${encodeURIComponent(
+                content={`https://d3tygoy974vfbk.cloudfront.net/images/apps/${encodeURIComponent(
                   `${brand} ${product}`
                 )}.jpg`}
               />
@@ -78,7 +78,7 @@ export default function ProductOverview(props) {
             <CardMedia
               component="img"
               className={classes.cover}
-              image={`https://d3tygoy974vfbk.cloudfront.net/images/phones/${encodeURIComponent(
+              image={`https://d3tygoy974vfbk.cloudfront.net/images/apps/${encodeURIComponent(
                 `${brand} ${product}`
               )}.jpg`}
               loading="auto"
