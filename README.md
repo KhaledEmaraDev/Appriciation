@@ -1,6 +1,6 @@
-# URrevs
+# Appriciation
 
-URrevs is a server side rendered content review platform made using Next.js(React), Express.js and MongoDB.
+Appriciation is a server side rendered app discovery platform made using Next.js(React), Express.js and MongoDB.
 
 ## Installation
 
