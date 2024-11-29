@@ -36,10 +36,7 @@ export default function SignUpPromptDialog() {
         </Typography>
         <div className={classes.form}>
           <Typography variant="body1" align="center">
-            اول منصة متخصصة في الوطن العربي لمراجعات المستخدمين. هدفنا مساعدة
-            الشخص المقبل علي الشراء في اختيار هاتفه من خلال المراجعات التي
-            يوفرها الموقع له والتي تشمل تجارب المستخدمين لهواتفهم من مميزات
-            وعيوب وكذلك توفير امكانيات واسعار احدث الهواتف.
+            منصة لاستكشاف التطبيقات
           </Typography>
         </div>
       </div>
