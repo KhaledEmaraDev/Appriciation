@@ -32,7 +32,7 @@ export default function ProductRating(props) {
         className={classes.subheader}
         component="h1"
         variant="subtitle2"
-      >{`تقييمات هاتف ${brand} ${product}`}</Typography>
+      >{`تقييمات تطبيق ${brand} ${product}`}</Typography>
       <Grid container spacing={1}>
         {ratings.map(rating => (
           <React.Fragment key={rating._id}>

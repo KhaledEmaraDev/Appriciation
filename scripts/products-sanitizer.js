@@ -64,8 +64,8 @@ const MongoClient = require("mongodb").MongoClient;
 
 const user = encodeURIComponent(process.env.DB_USER);
 const password = encodeURIComponent(process.env.DB_PASSWORD);
-const dbName = "urrevs";
-const url = `mongodb://${user}:${password}@urrevs.com:27017/?authMechanism=SCRAM-SHA-1&authSource=${dbName}`;
+const dbName = "appriciation";
+const url = `mongodb://${user}:${password}@appriciation.com:27017/?authMechanism=SCRAM-SHA-1&authSource=${dbName}`;
 
 MongoClient.connect(
   url,
