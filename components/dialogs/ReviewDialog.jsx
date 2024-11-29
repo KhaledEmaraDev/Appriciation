@@ -246,7 +246,7 @@ export default function ReviewDialog() {
     if (date_buy <= (min_date ? min_date : new Date("2008-01"))) {
       invalidateForm();
       return dispatch(
-        showSnackbar("warning", "عليك باختيار تاريخ شراء الهاتف")
+        showSnackbar("warning", "عليك باختيار تاريخ تنزيل التطبيق")
       );
     }
 
@@ -370,12 +370,12 @@ export default function ReviewDialog() {
               id="review-date-picker"
               fullWidth
               views={["year", "month"]}
-              label="منذ متى و أنت تملك الهاتف؟"
+              label="منذ متى و أنت تستخدم التطبيق"
               okLabel="موافق"
               cancelLabel="الغاء"
               error={dateError}
               minDate={review.min_date ? review.min_date : new Date("2008-01")}
-              minDateMessage="برجاء اختر تاريخ شراء الهاتف"
+              minDateMessage="برجاء اختر تاريخ تنزيل التطبيق"
               disableFuture
               value={review.date_buy}
               onChange={handleDateBuyChanged}
@@ -390,7 +390,7 @@ export default function ReviewDialog() {
               variant="subtitle2"
               align="center"
             >
-              قيم تجربتك العامة مع الهاتف
+              قيم تجربتك العامة مع التطبيق
             </Typography>
           </Grid>
           <Grid className={classes.center} item xs={12}>
@@ -407,7 +407,7 @@ export default function ReviewDialog() {
               fullWidth
               multiline
               error={prosError}
-              label="ماذا يعجبك بشأن الهاتف؟"
+              label="ماذا يعجبك بشأن التطبيق"
               value={review.pros}
               onChange={handleTextChage("pros")}
             />
@@ -419,7 +419,7 @@ export default function ReviewDialog() {
               fullWidth
               multiline
               error={consError}
-              label="ما الذي تكرهه بشأن هذا الهاتف؟"
+              label="ما الذي تكرهه بشأن هذا التطبيق"
               value={review.cons}
               onChange={handleTextChage("cons")}
             />

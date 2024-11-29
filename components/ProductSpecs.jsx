@@ -305,10 +305,10 @@ export default function ProductSpecs(props) {
         variant="subtitle2"
       >
         {!isComparison
-          ? `مواصفات هاتف ${specs ? brand : comparedBrand} ${
+          ? `مواصفات تطبيق ${specs ? brand : comparedBrand} ${
               specs ? product : comparedProduct
             }`
-          : `مقارنة ما بين هاتفي ${brand} ${product} و ${comparedBrand} ${comparedProduct}`}
+          : `مقارنة ما بين تطبيقي ${brand} ${product} و ${comparedBrand} ${comparedProduct}`}
       </Typography>
       <SearchBar
         id="compare-product-search"
@@ -319,9 +319,9 @@ export default function ProductSpecs(props) {
         <TableHead>
           <TableRow>
             <TableCell>نقطة المقارنة</TableCell>
-            <TableCell align="right">{`مواصفات هاتف ${brand} ${product}`}</TableCell>
+            <TableCell align="right">{`مواصفات تطبيق ${brand} ${product}`}</TableCell>
             {isComparison && (
-              <TableCell align="right">{`مواصفات هاتف ${comparedBrand} ${comparedProduct}`}</TableCell>
+              <TableCell align="right">{`مواصفات تطبيق ${comparedBrand} ${comparedProduct}`}</TableCell>
             )}
           </TableRow>
         </TableHead>
@@ -329,13 +329,13 @@ export default function ProductSpecs(props) {
           {isComparison && (
             <TableRow>
               <TableCell component="th" scope="row">
-                صورة الهاتف
+                صورة التطبيق
               </TableCell>
               <TableCell>
                 <img
                   loading="auto"
                   className={classes.thumbnail}
-                  src={`https://d3tygoy974vfbk.cloudfront.net/images/phones/${encodeURIComponent(
+                  src={`https://d3tygoy974vfbk.cloudfront.net/images/apps/${encodeURIComponent(
                     `${brand} ${product}`
                   )}.jpg`}
                   alt={`${brand} ${product}`}
@@ -345,7 +345,7 @@ export default function ProductSpecs(props) {
                 <img
                   loading="auto"
                   className={classes.thumbnail}
-                  src={`https://d3tygoy974vfbk.cloudfront.net/images/phones/${encodeURIComponent(
+                  src={`https://d3tygoy974vfbk.cloudfront.net/images/apps/${encodeURIComponent(
                     `${comparedBrand} ${comparedProduct}`
                   )}.jpg`}
                   alt={`${comparedBrand} ${comparedProduct}`}
